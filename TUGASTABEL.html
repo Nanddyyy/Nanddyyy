@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 1 - tabel</title>
+</head>
+<body>
+    <h1>Latihan tabel</h1>
+    <table border="1">
+        <tr><!--Header-->
+            <th style="background-color:gainsboro;">Header 1</th>
+            <th style="background-color:gainsboro;">Header 2</th>
+            <th style="background-color:gainsboro;">Header 3</th>
+            <th style="background-color:gainsboro;">Header 4</th>
+        </tr>
+        <tr><!--header 1-->
+            <td rowspan="2" style="background-color: greenyellow;">Cell 1</td>
+            <td>Cell 2</td>
+            <td>Cell 3</td>
+            <td>Cell 4</td>
+        </tr>
+        <tr><!--header 2-->
+            <td colspan="2" style="background-color: cyan;">Cell 2 dan Cell 3 Gabungan</td>
+            <td>Cell 4</td>
+        </tr>
+        <tr><!--header 3-->
+            <td>Cell 1</td>
+            <td rowspan="2" colspan="2" style="background-color: yellow;">Cell 2 dan Cell 3 dan Cell 4 Gabungan</td>
+            <td>Cell 3</td>
+
+        </tr>
+        <tr><!--header 4-->
+            <td>Cell 1</td>
+            <td>Cell 2</td>
+
+        </tr>
+    </table>
+</body>
+</html>
